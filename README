@@ -11,3 +11,4 @@ This project "android-learning-cases" includes many demo as follows:
 	主要练习了ContentProvider的功能
 6.BlackListDemo
 	主要实现了黑名单的功能,当黑名单电话来电时,实现静音模式
+7.QRCodeDemo
