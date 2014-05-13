@@ -1,3 +1,13 @@
 This project "android-learning-cases" includes many demo as follows:
 1.AutoCompleTextViewDemo
+	主要是实现了自动提示功能,实现了AutoCompleteTextView和MultiAutoCompleteTextView
 2.NotificationManagerDemo
+	主要实现了Notification的功能
+3.FileManagerDemo
+	主要实现了一个简单的文件管理器,涉及了很多Java的IO操作
+4.CallDemo
+	主要实现了拨打电话的功能
+5.ContentProviderDemo
+	主要练习了ContentProvider的功能
+6.BlackListDemo
+	主要实现了黑名单的功能,当黑名单电话来电时,实现静音模式
