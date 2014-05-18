@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+			  android:background="@color/white"
+		>
+	<EditText
+			android:id="@+id/myEditText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:hint="@string/str_text"
+			/>
+	<WebView
+			android:id="@+id/myWebView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/white"
+			>
+	</WebView>
+	<Button
+			android:id="@+id/myButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/str_button"
+			/>
+</LinearLayout>
+
