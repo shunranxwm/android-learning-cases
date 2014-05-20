@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load("language", "1");
+    function g_translate(strInput, targetDiv) {
+        google.language.translate(strInput, "zh-CN", "en", function(result){
+            if(!result.error) {
+                document.getElementById(targetDiv).innerHTML=result.translation;
+            }else{
+                document.getElementById(targetDiv).innerHTML="google_translate Error!";
+            }
+        });
+    }
+</script>
+
+<body style="background-color:#fff">
+    <div id="show" style="font-size:16px;color:#666;"></div>
+    <script language="javascript">
+        function translate(strTranslate) {
+            document.getElementById("show").innerHTML="翻译中...";
+            g_translate(strTranslate, "show");
+        }
+    </script>
+</body>
+
+</html>
