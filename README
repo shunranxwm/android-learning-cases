@@ -13,3 +13,5 @@ This project "android-learning-cases" includes many demo as follows:
 	主要实现了黑名单的功能,当黑名单电话来电时,实现静音模式
 7.QRCodeDemo
 	主要实现在线二维码的功能
+8.GoogleTranslateDemo
+	主要是实现Google的在线翻译，但是现在还存在问题，无法实现在线翻译的功能，不知是不是Google API调用错误
