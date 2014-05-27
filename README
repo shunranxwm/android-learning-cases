@@ -17,3 +17,5 @@ This project "android-learning-cases" includes many demo as follows:
 	主要是实现Google的在线翻译，但是现在还存在问题，无法实现在线翻译的功能，不知是不是Google API调用错误
 9.XMLParserDemo
 	主要是使用SAX解析XML文件
+10.ActivitySwitchToActivity
+	主要是实现Activity之间的切换和传值
