@@ -36,7 +36,17 @@ public class CallDemoActivity extends Activity {
 				try {
 					//取得用户输入的字符串
 					String _editText=meditText.getText().toString();
-					Intent _intent=new Intent("android.intent.action.CALL", Uri.parse("tel:"+_editText));
+
+					//第一种写法
+					//Intent _intent=new Intent("android.intent.action.CALL", Uri.parse("tel:"+_editText));
+
+					//第二种写法
+					Intent _intent=new Intent();
+					//ACTION_DIAL:显示拨号界面,但不拨打电话
+					//ACTION_CALL:直接拨打电话
+					_intent.setAction(Intent.ACTION_DIAL);
+					_intent.setData(Uri.parse("tel:"+_editText));
+
 					startActivity(_intent);
 				    meditText.setText("");
 				}catch (Exception e) {
